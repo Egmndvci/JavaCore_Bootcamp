@@ -1,6 +1,6 @@
 package com.egemendeveci._1_part_javatypes;
 
-public class _02_JavaDataTypes {
+public class _02_JavaPrimitiveTypes {
     public static void main(String[] args) {
         // Veri değişken isimlerini yazarken;
 
