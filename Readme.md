@@ -24,3 +24,25 @@ Paket kısa ve net şekilde olması gerekiyor.
 Javada her biten satırda ; ile bitirmek zorundayız.
 ````
 ---
+## Java Core Information
+````sh
+Java Case sensitive bir dildir.(küçük büyük harfe duyarlı, yüksek seviyede bir dildir.)
+
+````
+---
+## Java Core Information
+````sh
+````
+---
+## Java Core Information
+````sh
+````
+---
+## Java Core Information
+````sh
+````
+---
+## Java Core Information
+````sh
+````
+---
