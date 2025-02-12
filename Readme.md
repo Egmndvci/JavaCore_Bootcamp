@@ -4,10 +4,10 @@
 [Intellij Idea Community](https://www.jetbrains.com/idea/download/?section=windows)
 [git](https://git-scm.com/downloads/)
 
-# git
----
+# Git
+```sh
 git init
-git add
-git commit -m
+git add .
+git commit -m 
 git push -u origin master
----
+```
