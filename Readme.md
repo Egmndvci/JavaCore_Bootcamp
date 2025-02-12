@@ -11,3 +11,16 @@ git add .
 git commit -m 
 git push -u origin master
 ```
+## Java Common Rules
+````sh
+Class isimleri PascalCase göre yazılır.
+Class isimleri fiil olarak kullanmayız.
+Class: Java static class yoktur(inner class hariç)
+
+Paket isimleri: küçük harflerle yazılır.
+Paket isimleri: fiil olarak kullanmayız.
+Paket kısa ve net şekilde olması gerekiyor.
+
+Javada her biten satırda ; ile bitirmek zorundayız.
+````
+---
