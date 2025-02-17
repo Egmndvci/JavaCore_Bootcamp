@@ -23,14 +23,11 @@ public class _04_JavaWrapperTypes {
         Boolean wrapperBoolean = true;
         Character wrapperChar = 'a';
 
-        // WRAPPER TYPES NEW VARSA (eskiden new ile oluşturuluyordu şimdi new kullanılmıyor)
-        Byte wrapperTypeByte = new Byte((byte) 127);
-        Short wrapperShort = new Short((short) 10);
-        Integer wrapperInt = new Integer(10);
-        Long wrapperLong = new Long(10);
-        Float wrapperFloat = new Float(10.0f);
-        Double wrapperDouble = new Double(10.0);
-        Boolean wrapperBoolean = new Boolean(true);
-        Character wrapperChar = new Character('a');
+
+        // WRAPPER TYPES ÖZELLİKLERİ
+        System.out.println(Integer.MAX_VALUE); // Integer'ın maximum değeri
+        System.out.println(Integer.MIN_VALUE); // Integer'ın minimum değeri
+        System.out.println(Integer.SIZE); // Integer'ın boyutu
+        System.out.println(Integer.BYTES); // Integer'
     }
 }
