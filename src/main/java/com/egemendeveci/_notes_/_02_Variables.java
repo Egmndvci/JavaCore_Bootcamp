@@ -1,4 +1,4 @@
-package com.egemendeveci._1_week;
+package com.egemendeveci._notes_;
 
 public class _02_Variables {
     public static void main(String[] args) {

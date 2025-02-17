@@ -1,4 +1,4 @@
-package com.egemendeveci._1_week;
+package com.egemendeveci._notes_;
 
 //single comment
 public class _01_JavaPsvm {
