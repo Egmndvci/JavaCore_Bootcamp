@@ -1,4 +1,4 @@
-package com.egemendeveci._notes_;
+package com.egemendeveci._1_week;
 
 public class _04_4_Autoboxing {
     public static void main(String[] args) {

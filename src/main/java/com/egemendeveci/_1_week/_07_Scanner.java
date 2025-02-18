@@ -1,4 +1,4 @@
-package com.egemendeveci._notes_;
+package com.egemendeveci._1_week;
 
 import java.util.Scanner;
 

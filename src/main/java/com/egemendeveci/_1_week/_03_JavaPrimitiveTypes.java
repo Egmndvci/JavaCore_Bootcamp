@@ -1,4 +1,4 @@
-package com.egemendeveci._notes_;
+package com.egemendeveci._1_week;
 
 public class _03_JavaPrimitiveTypes {
     public static void main(String[] args) {
