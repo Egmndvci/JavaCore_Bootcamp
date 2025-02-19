@@ -26,7 +26,5 @@ public class _10_1_Loop {
             System.out.println(i + "");
             i++;
         } while (i <= 10);
-
-
     }
 }
