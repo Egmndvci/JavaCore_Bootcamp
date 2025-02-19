@@ -10,15 +10,13 @@ public class week2_examples_3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lütfen bir sayı giriniz:");
         int number = scanner.nextInt();
-        // 100'den büyük sayılar için limiti 100 yap
-        if (number > 100) {
-            number = 100;
-        }
         int toplam = 0;
-        // 1'den kullanıcı sayısına kadar topla
         for (int i = 1; i <= number; i++) {
             if (i == 47) {
                 continue; // 47'yi atla
+            }
+            if (i > 100) {
+                break; // 100'den büyük sayıları toplama
             }
             toplam += i;
         }
