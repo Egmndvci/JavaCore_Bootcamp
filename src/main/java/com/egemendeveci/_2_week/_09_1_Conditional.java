@@ -2,7 +2,7 @@ package com.egemendeveci._2_week;
 
 import java.util.Scanner;
 
-public class __09_1_Conditional {
+public class _09_1_Conditional {
     public static void main(String[] args) {
         Scanner scanner= new Scanner(System.in);
         System.out.println("lütfen bir sayı giriniz:");
