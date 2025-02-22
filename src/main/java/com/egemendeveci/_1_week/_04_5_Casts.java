@@ -3,12 +3,12 @@ package com.egemendeveci._1_week;
 public class _04_5_Casts {
     public static void main(String[] args) {
         //cast:dönüşüm
-        //1-) Windenig Cast- Implict Cast
+        //1-) Windenig Cast- Implict Cast ( Kapalı)
         byte cast1Byte= 100; // küçük olan veriyi
         int cast1Int = cast1Byte;// büyük olan verinin içine ekledim ( veri kaybı yoktur)
         System.out.println(cast1Int);
 
-        //2-Narrowing Cast- Explicit Cast
+        //2-Narrowing Cast- Explicit Cast(Açık) Daha büyük bir türü daha küçük bir veriye dönüştürmek için kullanılır.
         int cast2Int= 99999;
         byte cast2Byte = (byte) cast2Int;
         System.out.println(cast2Byte);//veri kaybım var. sonuca bakınca anlarsın.
@@ -21,6 +21,8 @@ public class _04_5_Casts {
         int cast3Int=38;
         char ascci2= (char) cast3Int;
         System.out.println(cast3Int + " sayısının ascci karşılığı : "+ ascci2);
+
+        //4-)
 
     }
 }
