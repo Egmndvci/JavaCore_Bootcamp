@@ -1,4 +1,4 @@
-# IBB Ecodation Java Core
+# Ecodation Java Core Notes
 [GitHub](https://github.com/hamitmizrak/ibb_ecodation_javacore.git)
 [JDK](https://www.oracle.com/tr/java/technologies/downloads/#jdk23-windows)
 [Intellij Idea Community](https://www.jetbrains.com/idea/download/?section=windows)
