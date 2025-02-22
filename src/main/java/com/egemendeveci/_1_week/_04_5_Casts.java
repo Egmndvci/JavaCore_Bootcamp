@@ -1,8 +1,6 @@
 package com.egemendeveci._1_week;
 
-import java.sql.SQLOutput;
-
-public class _04_5_Cast {
+public class _04_5_Casts {
     public static void main(String[] args) {
         //cast:dönüşüm
         //1-) Windenig Cast- Implict Cast
