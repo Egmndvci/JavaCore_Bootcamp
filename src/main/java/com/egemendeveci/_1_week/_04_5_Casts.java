@@ -1,5 +1,7 @@
 package com.egemendeveci._1_week;
 
+import java.sql.SQLOutput;
+
 public class _04_5_Casts {
     public static void main(String[] args) {
         //cast:dönüşüm
@@ -22,7 +24,19 @@ public class _04_5_Casts {
         char ascci2= (char) cast3Int;
         System.out.println(cast3Int + " sayısının ascci karşılığı : "+ ascci2);
 
-        //4-)
+        //4-) String => int
+        String cast4String="10";
+        String cast4String2="10";
+        int cast4Int = Integer.valueOf(cast4String); // string ifadeyi integer ifadeye çevirdim.bunu farklı şekilde de yapabilirsin mesela;
+        int cast4Int2 = Integer.parseInt(cast4String2);
+        System.out.println(cast4String+20);// çevirmezsen sonuçu yan yana yazar.
+        System.out.println(cast4Int+20);// çevirirsen toplar gördüğün gibi sonuçta.
+        System.out.println(cast4Int2+20);// farklı yöntemini cast4ınt2 de yaptim böyle de yapilabilir.
+
+        //5-) int=>String
+        int cast5Int=55;
+        String cast5String1=String.valueOf(cast5Int);
+        System.out.println(cast5String1);
 
     }
 }
