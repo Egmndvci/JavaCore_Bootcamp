@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class _14_1_Exception {
-    public static void main(String[] args) throws ArithmeticException, IOException {
+    public static void main(String[] args) throws ArithmeticException, IOException , NullPointerException {
         Scanner scanner = new Scanner(System.in);
         int number1, number2;
         System.out.println("Number 1 giriniz:");
